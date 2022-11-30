@@ -17,4 +17,11 @@ public class Student {
         }
     }
 
+    public static void localVariableInLoop() {
+        for (int ctr = 0; ctr < 5; ++ctr) {
+            System.out.println(ctr);
+        }
+       // System.out.println(ctr); ctr is not accessible outside the for loop, this line won't compile
+    }
+
 }
