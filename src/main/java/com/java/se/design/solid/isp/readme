@@ -1,0 +1,7 @@
+
+Interface Segregation Principle
+
+. Segregation means keeping things separated, and the interface segregation principle is about separating the interfaces
+. The principle states that many client specific interfaces are better than one general purpose interface
+. Clients should not be forced to implement a function they do not need
+. This is a simple principle to understand and apply
