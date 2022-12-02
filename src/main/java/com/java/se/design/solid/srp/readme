@@ -1,0 +1,8 @@
+
+Single Responsibility Principle
+
+. States that there should never be more than one reason for a class to change
+. This means that every class or similar structure in ones code should have only one job to do
+. Everything in the class should be related to that single purpose
+. It does not mean that your classes should only contain one method or property
+. There can be a lot of members as long as they relate to the single responsibility

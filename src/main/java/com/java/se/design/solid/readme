@@ -1,0 +1,16 @@
+
+SOLID Design Principles in Java Application Development
+
+. Refers to five design principles in object oriented programming, designed to reduce code rot and improve the value, function, and
+  maintainability of software
+. Helps develop less coupled code
+. Are class level, object oriented design concepts that in conjunction with an extensive test suite, help one avoid code rot
+
+The following are the five principles
+
+1. Single Responsibility Principle
+2. Open-Closed Principle
+3. Liskov Substitution Principle
+4. Interface Segregation Principle
+5. Dependency Inversion Principle
+
