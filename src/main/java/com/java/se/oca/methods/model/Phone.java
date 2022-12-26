@@ -5,6 +5,7 @@ public class Phone {
     public static boolean softKeyboard = true;
     //boolean softKeyboard = true;
     String phoneNumber = "123456789";
+    private double weight;
     public void setTested(boolean val) {
         tested = val;
     }
@@ -24,5 +25,13 @@ public class Phone {
         Phone phone = new Phone();
         phone.setPhoneNumber();
         System.out.println(phone.phoneNumber);
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 }
