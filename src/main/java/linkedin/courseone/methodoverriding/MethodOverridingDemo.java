@@ -1,4 +1,4 @@
-package linkedin.courseone.methooverriding;
+package linkedin.courseone.methodoverriding;
 
 class A {
 

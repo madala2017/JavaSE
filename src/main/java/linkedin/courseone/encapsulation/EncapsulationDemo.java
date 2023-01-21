@@ -1,7 +1,7 @@
 package linkedin.courseone.encapsulation;
 /**
  *  make sure the varaibles can be changed through accessor methods
- *  binding data with methods
+ *  encapsulation -> binding data with methods
  */
 
 class Student {
