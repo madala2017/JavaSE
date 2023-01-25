@@ -1,5 +1,12 @@
 package linkedin.courseone.interfaces;
 
+/**
+ *  Types of interface
+ *  1. Normal
+ *  2. Single abstract method - functional Interface - lambda expression
+ *  3. Marker interface has no method
+ *  4.
+ * */
 interface Abc {
     void show();
 }
