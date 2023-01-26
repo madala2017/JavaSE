@@ -20,20 +20,13 @@ public class UserInput {
     public static void main(String[] args) {
 
         System.out.println("Enter a number");
-        BufferedReader bufferedReader = null ;
         int n = 0;
-        try {
-            bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        try ( BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
+
             n = Integer.parseInt(bufferedReader.readLine());
         } catch (Exception e) {
             System.out.println(e);
             //throw new RuntimeException(e);
-        } finally {
-            try {
-                bufferedReader.close();
-            } catch (IOException e) {
-               // throw new RuntimeException(e);
-            }
         }
         System.out.println(n);
     }
