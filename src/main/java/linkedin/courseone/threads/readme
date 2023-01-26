@@ -1,0 +1,13 @@
+
+MultiThreading in Java Theory
+
+Thread => unit of a Process
+
+Uses of Threads
+
+1. Using Complete Power of CPU
+    in every java code there is at least one thread main
+
+2. Async task in Android
+
+3. Web Application
