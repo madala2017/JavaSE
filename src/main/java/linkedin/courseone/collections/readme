@@ -1,0 +1,22 @@
+
+collection - a concept
+Collection - an interface
+Collections - a class
+
+
+int [] a = new int[4] :
+                        1. the issue here the size is fixed
+ Collection<Integer> values = new ArrayList<>()                                                                   Collection ---> List ----> ArrayList
+            values.add(4)
+            values.add(5)
+
+
+Collection  does not work with index numbers
+List<Integer> list = new ArrayList<>()  duplicate elements, access to elements is sequential
+Set<Integer> numbers = new HashSet<>()   access to elements is random
+                     = new TreeSet<>()
+
+Map<key, value>
+
+Map<Integer, String> m = new HashMap<>();
+                       = new HashTable<>()

@@ -26,6 +26,14 @@ public class ThreadDemo {
                 }
             }
         });
+
+        t1.setName("Hi Thread");
+        t2.setName("Hello Thread");
+        System.out.println(t1.getName());
+        System.out.println(t2.getName());
+        System.out.println(t1.getPriority());
+        System.out.println(t2.getPriority());
+
         t1.start();
         try {
             Thread.sleep(10);
@@ -37,8 +45,10 @@ public class ThreadDemo {
             t1.join();
             t2.join();
         } catch (Exception e) {
-            
+
         }
+        System.out.println(t1.isAlive());
+        System.out.println(t2.isAlive());
 
         System.out.println("Bye");
     }
