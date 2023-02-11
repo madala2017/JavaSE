@@ -52,11 +52,13 @@ public class CollectionDemo {
         values.add(908);
         values.add(639);
         values.add(265);
-
+        int count = 0;
         Comparator<Integer> c = new Comparator<Integer>() {
+
             @Override
             public int compare(Integer i, Integer j) {
                 System.out.println("i = "+i+" j = "+ j +"    (" +i % 10 + " > "+ j % 10+")");
+
                 if (i % 10 > j % 10) {
                     return 1; // swap the elements
                 } else {
@@ -66,6 +68,7 @@ public class CollectionDemo {
         };
 
         Collections.sort(values,c);
+
         for (Integer val : values) {
             System.out.println(val);
         }
