@@ -1,0 +1,8 @@
+
+Functional Interface:
+
+. An Interface that contains only one abstract method is known as functional interface
+. It can have any number of default and static methods
+. It can also declare methods of object class.
+
+. Functional interfaces are also known as Single Abstract Method Interfaces (SAM Interfaces)
