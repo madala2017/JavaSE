@@ -1,0 +1,10 @@
+
+forEach:
+
+. Java provides a new method forEach() to iterate the elements
+. It is defined in Iterable and Stream interfaces.
+. It is a default method defined in the Iterable interface
+. Collection classes which extends Iterable interface can use forEach() method to iterate elements
+. This method takes a single parameter which is a functional interface
+. So, you can pass lambda expression as an argument
+
