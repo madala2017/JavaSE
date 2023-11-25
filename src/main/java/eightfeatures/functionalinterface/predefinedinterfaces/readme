@@ -1,0 +1,23 @@
+Java BiConsumer Interface:
+
+. BiConsumer Interface accepts two input arguments and does not return any result
+. This is the two-arity specialization of Consumer interface
+. It provides a functional method accept(Object, Object) to perform custom operations
+
+Java Consumer Interface:
+
+. It is a functional interface defined in java.util.function package
+. It contains an abstract accept() and a default andThen() method
+. It can be used as the assignment target for a lambda expression or method reference.
+. The Consumer Interface accepts a single argument and does not return any result
+
+Java Function Interface:
+
+. It is a functional interface
+. It is used to refer method by specifying type of parameter
+. It returns a result back to the referred function.
+
+Java Predicate Interface:
+
+. It is a functional interface which represents a predicate (boolean-valued function) of one argument
+. It is defined in the java.util.function package and contains test() a functional method
