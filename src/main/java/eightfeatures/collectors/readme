@@ -1,0 +1,5 @@
+Java Collectors:
+
+. Collectors is a final class that extends Object class
+. It provides reduction operations, such as accumulating elements into collections, summarizing elements according to various criteria, etc.
+. Java Collectors class provides various methods to deal with elements
