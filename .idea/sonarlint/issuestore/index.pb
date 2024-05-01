@@ -9,3 +9,15 @@ n
 >src/main/java/linkedin/courseone/exceptions/ExceptionDemo.java,5\9\59a8a26ea5e18ff60312a8b9e0dcf53870461b78
 w
 Gsrc/main/java/linkedin/courseone/interfaces/DefaultMethodInterface.java,9\2\92d3b1f158709cec0255a8165c0f800b61bbd895
+^
+.src/main/java/gforgtutorial/inputoutput/readme,f\3\f35b089cf853acd926322da6a6501b05634830d3
+p
+@src/main/java/gforgtutorial/inputoutput/demo/ScannerDemoOne.java,8\6\8606048d1ce347f5dccb908291a493da9c558520
+p
+@src/main/java/gforgtutorial/inputoutput/demo/ScannerDemoTwo.java,a\6\a6e3ae85c7168b88c8ea1d3710f07e7c1c2752a6
+w
+Gsrc/main/java/gforgtutorial/inputoutput/demo/BufferedReaderDemoOne.java,6\f\6fb3a64f6ba8f05c5ea84baed35083aad1c40dcd
+w
+Gsrc/main/java/gforgtutorial/inputoutput/demo/BufferedReaderDemoTwo.java,9\2\920e2d3d6e4d29d17b47e4c28504240cd7e03df5
+r
+Bsrc/main/java/gforgtutorial/inputoutput/demo/ScannerDemoThree.java,7\d\7df6cb92ff261b4606bd8fb609e82433e5574609

@@ -1,0 +1,24 @@
+There are two ways by which we can take Java input from the user or from a file
+
+. BufferedReader Class
+. Scanner Class
+
+
+BufferedReader
+
+    . a simple class that is used to read a sequence of characters.
+    . it has a simple function that reads a character another read which reads, an array of characters, and
+        a read line function which reads a line.
+    .
+
+
+
+Scanner
+
+    . it is an advanced version of BufferedReader which was added in later versions of Java
+    . it can read formatted input
+    . it has different functions for different types of data types
+    . is much easier to read as we don't have to write throws as there is no exception thrown by it
+    .
+
+
