@@ -1,0 +1,32 @@
+
+Java Base64 Encode and Decode:
+
+. Java provides a class Base64 to deal with encryption
+. You can encrypt and decrypt your data by using provided methods
+. You need to import java.util.Base64 in your source file to use its methods
+
+This class provides three different encoders and decoders to encrypt information at each level
+You can use these methods at the following levels:
+
+
+Basic Encoding and Decoding:
+
+. It uses the Base64 alphabet specified by Java in RFC 4648 and RFC 2045 for encoding and decoding operations
+. The encoder does not add any line separator character
+. The decoder rejects data that contains characters outside the base64 alphabet
+
+
+URL and Filename Encoding and Decoding:
+
+. It uses the Base64 alphabet specified by Java in RFC 4648 for encoding and decoding operations
+. The encoder does not add any line separator character
+. The decoder rejects data that contains characters outside the base64 alphabet
+
+
+MIME:
+
+. It uses the Base64 alphabet as specified in RFC 2045 for encoding and decoding operations
+. The encoded output must be represented in lines of no more than 76 characters each and uses a carriage return '\r' followed immediately by a linefeed '\n' as the line separator
+. No line separator is added to the end of the encoded output
+. All line separators or other characters not found in the base64 alphabet table are ignored in decoding operation
+
